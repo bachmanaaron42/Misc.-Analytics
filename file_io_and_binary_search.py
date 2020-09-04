@@ -93,3 +93,4 @@ print(lax_dict)
 create and write to a new text file
 file = open('dictionary_thoughts.txt', 'w')
 file.write('In my opinion, using a dictionary to search for a value (as opposed to a list of lists) is about the same effort, because you still have to write a nested for loop to iterate through the list of dictionaries')
+file.close()
